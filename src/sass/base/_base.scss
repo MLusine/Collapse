@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.container {
+    width: 400px;
+    background-color: $color-light-green;
+    border:  1px solid $color-green;
+    border-radius: 30px;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

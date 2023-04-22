@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.container {
+  width: 400px;
+  background-color: #8ee3bb;
+  border: 1px solid #074327;
+  border-radius: 30px;
+  top: auto;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.content {
+  position: relative;
+  display: block;
+}
+
+.chat {
+  color: #074327;
+  background-color: #8ee3bb;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.user1,
+.user2 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.user_photo1,
+.user_photo2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #074327;
+  border-radius: 50px;
+}
+
+.user2 {
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.text {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #074327;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.send_btn {
+  padding: 5px 20px;
+  background-color: #074327;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
